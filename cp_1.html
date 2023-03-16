@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <title>Самостійна робота 1</title>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        background-color: blanchedalmond;
+      }
+      img {
+        border: 2px solid violet;
+        padding: 5px;
+        margin: 2px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 5px;
+        text-align: center;
+      }
+      table#T1 {
+        width: 100%;
+        background-color: #f1f1c1;
+      }
+      table#T1 th {
+        background-color: black;
+        color: white;
+      }
+      a.purple_buttons {
+        background-color: blueviolet;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Перший заголовок</h1>
+    <h2 style="color: darkcyan">Другорядний заголовок</h2>
+    <p
+      style="color: firebrick; font-family: Helvetica; font-size: 120%"
+      title="Згенерований текст"
+    >
+      <i>Lorem</i> <small>ipsum</small> <strong>sit</strong>, <em>amet</em>
+      <mark>consectetur</mark> <del>adipisicing</del> <ins>elit.</ins> <br />
+      <sup>Tenetur</sup> unde <sub>maxime</sub> <b>modi</b> qui
+      explicabo.Temporibus repellendus dolorum, id quasi neque error vel alias
+      quibusdam ad dicta aperiam sequi quod quisquam ipsa quos aspernatur
+      consequuntur totam maxime nisi ipsum, fugiat sed animi voluptates!
+      Doloribus, eum. Consequuntur illo deserunt dolor magnam sit!
+    </p>
+    <blockquote>
+      <img
+        src="images/Einstein.jpg"
+        alt="Einstein"
+        style="float: right; width: 85px; height: 100px"
+      />
+      Хлопчик зростав замкнутим і нетовариським і не демонстрував яких-небудь
+      значних успіхів в школі. Поширеною є думка, що в дитинстві Альберт
+      Ейнштейн був не здібний до навчання. Як докази наводяться низькі
+      показники, які він демонстрував у школі, а також той факт, що майбутній
+      геній вельми пізно почав ходити і говорити. Проте така точка зору
+      заперечується багатьма дослідниками біографії Альберта Ейнштейна.
+    </blockquote>
+    <hr />
+
+    <a href="#L1" class="purple_buttons">Перейти до невпорядкованого списоку</a>
+    <a href="#L2" class="purple_buttons">Перейти до впорядкованого списоку</a>
+    <a href="mailto:someone@example.com">Пошта</a>
+    <a href="https://www.coursera.org/" target="_blank">Курсера</a>
+    <a
+      href="https://schedule.kpi.ua/"
+      title="Перейти на сайт розкладу КПІ через картинку"
+      padding="10px"
+    >
+      <img
+        src="images/schedule.jpg"
+        alt="schedule logo"
+        style="width: 50px; height: 50px; border: 0"
+      />
+    </a>
+    <hr />
+
+    <img src="images/cat.jpg" alt="a cat" width="260px" height="350px" />
+    <p><cite>Милий котик</cite> сфотографований у 2020.</p>
+    <hr />
+
+    <!-- далі буде кнопка-->
+    <button>Це нудна кнопка</button>
+    <input
+      type="button"
+      onclick="alert('Ви натиснули цю кнопку! Ура!')"
+      value="Натисни сюди!!!"
+    /><br />
+
+    <form action="https://www.w3schools.com/action_page.php" target="_blank">
+      Поточний рік:
+      <input type="text" name="year" />
+      <input type="submit" value="Надіслати" />
+    </form>
+    <form action="https://www.w3schools.com/action_page.php">
+      <input type="radio" name="drink" value="tea" /> Чай
+      <input type="radio" name="drink" value="coffee" /> Кава
+      <input type="submit" />
+    </form>
+
+    <hr />
+
+    <h3 id="L1">Невпорядкований список</h3>
+    <ul style="list-style-type: square">
+      <li>Ротвейлер</li>
+      <li>Такса</li>
+      <li>Далматинець</li>
+      <li>Ротвейлер</li>
+      <li>Пудель</li>
+      <li>Вівчарка</li>
+    </ul>
+    <h3 id="L2">Впорядкований список</h3>
+    <ol type="I">
+      <li>Зима</li>
+      <li>Весна</li>
+      <li>Літо</li>
+      <li>Осінь</li>
+    </ol>
+    <hr />
+
+    <div style="background-color: brown; color: white; padding: 10px">
+      <h3 style="text-align: center">Вірш Михайля Семенка</h3>
+      <pre style="text-align: center">
+      Ніч.
+      Ніч.
+      Ніч.
+      Стукотить у скронях.
+      Порожньо в долонях.
+      В серці — ще сумніш.
+      В очах
+      Жах.
+      Ніч. Ніч. Ніч.
+    </pre
+      >
+    </div>
+    <hr />
+
+    <table id="T1">
+      <caption>
+        Таблиця студентів
+      </caption>
+      <tr>
+        <th>Ім'я</th>
+        <th>Група</th>
+        <th>Вік</th>
+      </tr>
+      <tr>
+        <td>Марта</td>
+        <td>АП-09</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>Паша</td>
+        <td>ОР-50</td>
+        <td>23</td>
+      </tr>
+      <tr>
+        <td>Саша</td>
+        <td>АП-05</td>
+        <td>23</td>
+      </tr>
+    </table>
+    <hr />
+
+    <p>
+      <em>Карта зображень.</em> <br />
+      Наведіть курсор на древнє зображення певного континенту та клікніть, аби
+      перейти на сторінку з інформацією про даний континент у Вікіпедії.
+    </p>
+    <img src="images/worldmap.jpg" alt="world map" usemap="#photomap" />
+    <map name="photomap">
+      <area
+        shape="circle"
+        coords="190, 137, 125"
+        href="https://en.wikipedia.org/wiki/Europe"
+        alt="Europe"
+      />
+      <area
+        shape="circe"
+        coords="580, 137, 125"
+        href="https://en.wikipedia.org/wiki/Asia"
+        alt="Asia"
+      />
+      <area
+        shape="circle"
+        coords="380, 410, 125"
+        href="https://en.wikipedia.org/wiki/Africa"
+        alt="Africa"
+      />
+    </map>
+    <hr />
+  </body>
+</html>
