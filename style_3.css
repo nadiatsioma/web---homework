@@ -1,0 +1,42 @@
+body {
+  background-color: pink;
+  font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+header {
+  border: thick dotted;
+  text-align: center;
+  margin: 15px 100px;
+}
+i {
+  margin: 7px;
+  padding-left: 10px;
+}
+div {
+  padding: 15px;
+  border: solid teal;
+  background-color: rgb(244, 211, 216);
+  text-align: center;
+}
+a {
+  color: crimson;
+}
+a:hover {
+  font-size: large;
+  color: blueviolet;
+}
+img {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+p {
+  margin-left: 30px;
+  margin-right: 30px;
+  color: aliceblue;
+  font-size: 28px;
+}
